@@ -101,7 +101,7 @@ function Contact() {
               Contact Us
             </Typography>
             <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
-              We'd love to hear from you. Please fill out the form below.
+              Ми завжди відкриті до спілкування. Заповніть, будь ласка, форму нижче — і ми з вами зв’яжемося.
             </Typography>
           </motion.div>
 

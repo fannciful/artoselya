@@ -22,82 +22,62 @@ import {
 } from '@mui/icons-material';
 
 function About() {
-  const teamMembers = [
-    { 
-      name: 'Olha Hotsii', 
-      role: 'Founder & Lead Architect',
-      experience: '15+ years',
-      specialization: 'Sustainable Design'
-    },
-    { 
-      name: 'Oleh Hotsii', 
-      role: 'Sustainability Consultant',
-      experience: '12+ years',
-      specialization: 'Green Building'
-    },
-    { 
-      name: 'Yuliia Hotsii', 
-      role: 'Interior Design Lead',
-      experience: '10+ years',
-      specialization: 'Modern Interiors'
-    },
-  ];
 
   const coreValues = [
     {
       icon: <EmojiObjects fontSize="large" color="primary" />,
-      title: 'Innovation',
-      description: 'We push boundaries with cutting-edge technology and creative solutions that define tomorrow\'s architecture.'
+      title: 'Інноваційність',
+      description: 'Ми впроваджуємо сучасні технології та нестандартні підходи у проєктуванні, щоб створювати простори, що відповідають вимогам сьогодення та викликам майбутнього.'
     },
     {
       icon: <Public fontSize="large" color="primary" />,
-      title: 'Sustainability',
-      description: 'Environmental responsibility drives our design philosophy, integrating eco-friendly materials and energy-efficient strategies.'
+      title: 'Стійкість',
+      description: 'У своїх проєктах ми дбаємо про довкілля — використовуємо енергоефективні рішення та екологічні матеріали, з повагою ставлячись до ресурсів планети.'
     },
     {
       icon: <Architecture fontSize="large" color="primary" />,
-      title: 'Craftsmanship',
-      description: 'Every detail is meticulously crafted, combining traditional artistry with modern precision to create timeless spaces.'
+      title: 'Людяність',
+      description: 'Ми проєктуємо з думкою про людей — кожен простір покликаний не лише функціонувати, а й бути комфортним, безпечним і натхненним для тих, хто в ньому живе, працює чи відпочиває.'
     }
   ];
 
   const achievements = [
-    'Award-winning sustainable designs',
-    'LEED Platinum certified projects',
-    '50+ completed architectural projects',
-    'International recognition'
+    'Розробка генеральних планів для міських та приміських територій',
+    'Сертифіковані фахівці зі сталого проєктування',
+    '30+ виконаних проєктів',
+    'Інноваційні концепції житлових комплексів'
   ];
 
   const testimonials = [
     {
-      name: 'Michael Smith',
+      name: 'Орест Тетенко',
       photo: 'https://randomuser.me/api/portraits/men/32.jpg',
-      quote: 'ArchiDesign transformed our workspace into an inspiring environment. Their attention to detail and sustainable approach are unmatched.'
+      quote: 'Співпрацювали з АртОселею при розробці проєкту приватного будинку. Команда уважно вислухала наші побажання й запропонувала кілька цікавих рішень.'
     },
     {
-      name: 'Sofia Martinez',
+      name: 'Софія Музика',
       photo: 'https://randomuser.me/api/portraits/women/44.jpg',
-      quote: 'The team was professional, creative, and truly cared about the impact of their designs. Highly recommend ArchiDesign!'
+      quote: 'Звернулися до АртОселі для створення генплану нашого селища. Професійний підхід, грамотні консультації, все виконано вчасно та оперативно!'
     },
     {
-      name: 'David Johnson',
+      name: 'Артем Ницинський',
       photo: 'https://randomuser.me/api/portraits/men/65.jpg',
-      quote: 'Their innovative solutions helped us reduce costs while creating beautiful, functional spaces.'
+      quote: 'Команда продемонструвала високий рівень знань та досвіду. Працювати було комфортно, постійний зворотний зв’язок, зрозумілі пояснення щодо рішень.'
     },
         {
-      name: 'Michael Smith',
+      name: 'Михайло Довбик',
       photo: 'https://randomuser.me/api/portraits/men/32.jpg',
-      quote: 'ArchiDesign transformed our workspace into an inspiring environment. Their attention to detail and sustainable approach are unmatched.'
+      quote: 'Нам потрібен був проєкт для приватного будинку з використанням енергоефективних рішень. Отримали продуману концепцію та гарну підтримку.'
     },
     {
-      name: 'Sofia Martinez',
+      name: 'Анна Микитюк',
       photo: 'https://randomuser.me/api/portraits/women/44.jpg',
-      quote: 'The team was professional, creative, and truly cared about the impact of their designs. Highly recommend ArchiDesign!'
+      quote: 'Хороша команда з сучасним баченням. Замовляли дизайн простору для дитячого центру. Дуже сподобалися увага до деталей і врахування безпеки.'
     },
     {
-      name: 'David Johnson',
+      name: 'Артем Вамницький',
       photo: 'https://randomuser.me/api/portraits/men/65.jpg',
-      quote: 'Their innovative solutions helped us reduce costs while creating beautiful, functional spaces.'
+      quote: 'Звертались до АртОселі як до підрядника по архітектурній частині житлового комплексу. Приємно, що команда працює відповідально.'
     }
   ];
 
@@ -120,7 +100,7 @@ function About() {
             mb: 2
           }}
         >
-          About Our Company
+          Наша компанія
         </Typography>
         <Divider 
           sx={{ 
@@ -162,7 +142,7 @@ function About() {
         mb: 3
       }}
     >
-      Shaping Tomorrow's Architecture Today
+      Формуємо архітектуру завтрашнього дня сьогодні
     </Typography>
     <Typography 
       variant="body2"
@@ -174,9 +154,9 @@ function About() {
         fontSize: '0.95rem'
       }}
     >
-      <strong>ArtOselya</strong> is a visionary architecture studio where innovation meets sustainability. 
-      We create spaces that don't just shelter, but inspire, heal, and connect communities. Our designs 
-      tell stories of human experience while respecting our planet's future.
+      <strong>ArtOselya</strong> — це простір, де інновації поєднуються зі стійким розвитком. 
+      Ми створюємо не просто будівлі, а живі простори, які надихають, зцілюють і об’єднують спільноти. 
+      У кожному нашому проєкті закладено глибоку повагу до людського досвіду та турботу про майбутнє планети.
     </Typography>
   </CardContent>
 </Card>
@@ -203,7 +183,7 @@ function About() {
               }}
             >
               <Timeline color="primary" />
-              Our Design Process
+              На чому ми спеціалізуємося?
             </Typography>
             <Typography 
               variant="body2" // smaller body font
@@ -214,9 +194,9 @@ function About() {
                 fontSize: '0.95rem'
               }}
             >
-              From initial concept to final construction, we embrace collaboration at every stage. 
-              Our process involves deep listening, community engagement, and iterative design that 
-              ensures each project reflects both functional excellence and emotional resonance.
+            Наша компанія, забезпечує сучасні та кваліфіковані рішення в галузі архітектури та містобудування. 
+            Ми спеціалізуємося на створенні детальних планів території, ескізах намірів забудови, 
+            архітектурних проєктах різної складності. 
             </Typography>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -232,7 +212,7 @@ function About() {
               }}
             >
               <Star color="primary" />
-              Our Achievements
+              Досягнення
             </Typography>
             <Stack direction="row" flexWrap="wrap" gap={1} sx={{ mb: 2 }}>
               {achievements.map((achievement, index) => (
@@ -253,8 +233,7 @@ function About() {
                 fontSize: '0.95rem'
               }}
             >
-              Recognition from industry leaders validates our commitment to excellence and innovation 
-              in sustainable architecture.
+              Визнання лідерів галузі підтверджує нашу прихильність до досконалості та інновацій у сфері сталої архітектури.
             </Typography>
           </Grid>
         </Grid>
@@ -276,7 +255,7 @@ function About() {
             mb: 1
           }}
         >
-          Our Core Values
+          Наші основні цінності
         </Typography>
         <Typography 
           variant="body2" // smaller body font
@@ -289,7 +268,7 @@ function About() {
             fontSize: '0.95rem'
           }}
         >
-          The fundamental principles that guide every decision we make and every space we create.
+         Фундаментальні принципи, якими ми керуємося при прийнятті кожного рішення і створенні кожного простору.
         </Typography>
         
         <Box sx={{ 
@@ -346,92 +325,6 @@ function About() {
         </Box>
       </motion.div>
 
-      {/* Team Section */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.8, duration: 0.6 }}
-      >
-        <Typography 
-          variant="h5" // smaller heading
-          align="center"
-          gutterBottom 
-          sx={{ 
-            fontWeight: 'bold', 
-            color: 'text.primary',
-            mb: 1
-          }}
-        >
-          <Groups sx={{ mr: 1, verticalAlign: 'middle' }} />
-          Meet Our Expert Team
-        </Typography>
-        <Typography 
-          variant="body2" // smaller body font
-          align="center"
-          sx={{ 
-            color: 'text.secondary',
-            mb: 4,
-            maxWidth: '600px',
-            mx: 'auto',
-            fontSize: '0.95rem'
-          }}
-        >
-          Our diverse team brings together decades of experience in architecture, sustainability, and design innovation.
-        </Typography>
-        <Grid container spacing={4} sx={{ mb: 8 }} justifyContent="center">
-          {teamMembers.map((member, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index} sx={{ display: 'flex' }}>
-              <Card 
-                elevation={3}
-                sx={{ 
-                  borderRadius: 3,
-                  transition: 'transform 0.3s ease',
-                  height: 320,
-                  width: 280,
-                  minWidth: 280,
-                  maxWidth: 280,
-                  flex: 'none',
-                  '&:hover': {
-                    transform: 'scale(1.02)'
-                  }
-                }}
-              >
-                <CardContent sx={{ 
-                  textAlign: 'center', 
-                  p: 3, 
-                  height: '100%', 
-                  display: 'flex', 
-                  flexDirection: 'column',
-                  justifyContent: 'space-between'
-                }}>
-                  <Avatar 
-                    sx={{ 
-                      width: 96, 
-                      height: 96, 
-                      mx: 'auto',
-                      mb: 2 
-                    }}
-                    alt={member.name}
-                    src={`https://ui-avatars.com/api/?name=${encodeURIComponent(member.name)}&background=1976d2&color=fff&size=128`}
-                  />
-                  <Typography variant="h6" fontWeight="bold" gutterBottom>
-                    {member.name}
-                  </Typography>
-                  <Typography variant="subtitle2" color="primary" sx={{ mb: 1 }}>
-                    {member.role}
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary" sx={{ fontSize: '0.9rem' }}>
-                    Experience: {member.experience}
-                    <br />
-                    Specialization: {member.specialization}
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </motion.div>
-
       {/* Testimonials Section */}
 <motion.div
   initial={{ opacity: 0, y: 50 }}
@@ -448,7 +341,7 @@ function About() {
       mb: 1
     }}
   >
-    What Our Clients Say
+    Відгуки клієнтів
   </Typography>
   <Typography 
     variant="body2" 
@@ -461,7 +354,7 @@ function About() {
       fontSize: '0.95rem'
     }}
   >
-    Testimonials from our satisfied clients reflect our dedication to excellence and care.
+    Відгуки наших задоволених клієнтів відображають наше прагнення до досконалості та турботи.
   </Typography>
 
   <Box
